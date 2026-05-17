@@ -1,0 +1,200 @@
+/* ===== RESET ===== */
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 70px; /* navbar overlap fix */
+  font-family: sans-serif;
+}
+
+/* ===== SECTION ===== */
+section {
+  margin: 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease forwards;
+}
+
+/* ===== CONTACT ===== */
+.contact-section {
+  width: 100%;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px 40px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-box h2 {
+  margin-bottom: 15px;
+  color: #facc15;
+}
+
+.contact-box p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.contact-box a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* ===== COURSES ===== */
+.courses-section {
+  padding-bottom: 20px;
+}
+
+/* ===== STATS ===== */
+.stats-section {
+  background: #ff2d00;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.stats-section .title {
+  background: #eee;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ff2d00;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: #eee;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.card .icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #ff2d00;
+}
+
+/* ===== DARK MODE ===== */
+
+
+html.dark body {
+  background-color: #0f172a;
+  color: white;
+}
+
+/* ===== TEXT ===== */
+.text-main {
+  color: black;
+}
+html.dark .text-main {
+  color: white;
+}
+
+.text-sub {
+  color: #555;
+}
+html.dark .text-sub {
+  color: #ccc;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  background: orange;
+  color: black;
+}
+html.dark .btn {
+  background: yellow;
+  color: black;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  padding-top: 70px;   /* navbar sticky hai to space milega */
+  font-family: sans-serif;
+}
+
+/* SECTION */
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR SPACE (agar sticky hai) */
+body {
+  padding-top: 70px;
+}
+/* SLIDER WRAPPER */
+#slider-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 5;   /* 🔥 perfect banner ratio */
+  overflow: hidden;
+}
+
+/* SLIDER */
+#slider {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* IMAGE */
+.slide-img {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}

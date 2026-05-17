@@ -1,0 +1,992 @@
+[
+  {
+    "universityMeritNo": "1",
+    "candidateName": "PAYAL SHARMA",
+    "fatherName": "PRAVEEN KUMAR SHARMA",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "First Semester",
+    "percentage": "81.78",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "VARSHA",
+    "fatherName": "MANOJ",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "First Semester",
+    "percentage": "93.27",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "POOJA",
+    "fatherName": "SANJAY",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Semester",
+    "percentage": "84.52",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "ANMOL",
+    "fatherName": "SHER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "93.27",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "VARSHA",
+    "fatherName": "MANOJ",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Second Semester",
+    "percentage": "84.91",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "ANMOL",
+    "fatherName": "SHER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "90.73",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "VARSHA",
+    "fatherName": "MANOJ",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Third Semester",
+    "percentage": "93.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "POOJA",
+    "fatherName": "SANJAY",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Semester",
+    "percentage": "85.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "ASHA",
+    "fatherName": "PARDEEP KUMAR",
+    "courseName": "B.Com",
+    "semester": "Fifth Semester",
+    "percentage": "81.17",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "ABHISHEK",
+    "fatherName": "SURESH",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Semester",
+    "percentage": "91.78",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "MAMTA",
+    "fatherName": "SATYAVIR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "91.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "SUSHANT",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Semester",
+    "percentage": "96.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "TAMANNA",
+    "fatherName": "RAKESH KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "95.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "1",
+    "candidateName": "POOJA YADAV",
+    "fatherName": "RANDHIR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "99.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "PRIYANKA",
+    "fatherName": "SUNIL KUMAR",
+    "courseName": "B A",
+    "semester": "First Semester",
+    "percentage": "87.75",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "DEEPIKA YADAV",
+    "fatherName": "SHRI BHAGWAN",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Semester",
+    "percentage": "83.83",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "KIRTI",
+    "fatherName": "JITENDER KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "92.36",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "RINKI",
+    "fatherName": "JAICHAND",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Semester",
+    "percentage": "85.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "ANMOL",
+    "fatherName": "SHER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "94.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "PRATHAM",
+    "fatherName": "PAWAN KUMAR",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Semester",
+    "percentage": "86.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "SUBHLATA",
+    "fatherName": "SANJAY KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "91.20",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "MONIKA",
+    "fatherName": "SUBE SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "95.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "NISHITA",
+    "fatherName": "MAHENDER KUMAR",
+    "courseName": "B.Sc ( NON-MEDI)",
+    "semester": "Fourth Semester",
+    "percentage": "89.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "MANJU",
+    "fatherName": "RAJENDER",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "91.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "2",
+    "candidateName": "MONIKA",
+    "fatherName": "SUBE SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "98.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "SAPNA",
+    "fatherName": "RAJESHWAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "92.18",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "PAYAL SHARMA",
+    "fatherName": "PRAVEEN KUMAR SHARMA",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Second Semester",
+    "percentage": "82.89",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "PAYAL SHARMA",
+    "fatherName": "PRAVEEN KUMAR SHARMA",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Semester",
+    "percentage": "93.11",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "KIRTI",
+    "fatherName": "JITENDER KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "92.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "AMBIKA",
+    "fatherName": "PARDEEP SINGH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Semester",
+    "percentage": "85.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "MANJU",
+    "fatherName": "RAJENDER",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "90.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "NISHA",
+    "fatherName": "SANKET YADAV",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Semester",
+    "percentage": "92.89",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "EKTA",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "94.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "AMBIKA",
+    "fatherName": "PARDEEP SINGH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fourth Semester",
+    "percentage": "89.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "ANJALI",
+    "fatherName": "RANJEET SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "90.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "SUSHANT",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Sixth Semester",
+    "percentage": "80.67",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "3",
+    "candidateName": "TAMANNA",
+    "fatherName": "RAKESH KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "98.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "PRIYANKA",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "First Semester",
+    "percentage": "88.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "RIYA",
+    "fatherName": "RAM KISHAN",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Second Semester",
+    "percentage": "81.78",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "SAPNA",
+    "fatherName": "RAJESHWAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "89.09",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "PREETI",
+    "fatherName": "LILA RAM",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Semester",
+    "percentage": "83.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "SAPNA",
+    "fatherName": "RAJESHWAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "91.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "DEEPIKA",
+    "fatherName": "BHAGWAN SINGH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Semester",
+    "percentage": "84.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "ANITA",
+    "fatherName": "ISHWAR SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "90.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "POOJA YADAV",
+    "fatherName": "RANDHIR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "94.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "PRIYA",
+    "fatherName": "SHRI BHAGWAN",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "90.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "4",
+    "candidateName": "ANNU YADAV",
+    "fatherName": "PRAVEEN KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "97.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "PREETI",
+    "fatherName": "LILA RAM",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Semester",
+    "percentage": "81.57",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "YACHANA",
+    "fatherName": "VIJAY SHARMA",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "91.09",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "NEHA YADAV",
+    "fatherName": "DEVENDER SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Second Semester",
+    "percentage": "84.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "KIRTI",
+    "fatherName": "JITENDER KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "87.82",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "DEEPIKA YADAV",
+    "fatherName": "SHRI BHAGWAN",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Semester",
+    "percentage": "81.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "ISHU SANGWAN",
+    "fatherName": "SHAMSHER SINGH",
+    "courseName": "B A",
+    "semester": "Fifth Semester",
+    "percentage": "82.75",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "MANSI",
+    "fatherName": "BHARPUR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Semester",
+    "percentage": "92.22",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "NEERU",
+    "fatherName": "SAJJAN KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "93.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "5",
+    "candidateName": "DEEPIKA",
+    "fatherName": "SUNIL",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "97.20",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "YACHANA",
+    "fatherName": "VIJAY SHARMA",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "87.09",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "SUSHMA",
+    "fatherName": "KRISHAN KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Third Semester",
+    "percentage": "88.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "MAMTA",
+    "fatherName": "BIRBAL",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "91.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "PRIYA",
+    "fatherName": "SHRI BHAGWAN",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "90.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "ANKITA YADAV",
+    "fatherName": "SUDHIR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Semester",
+    "percentage": "91.56",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "MONI",
+    "fatherName": "SUNIL KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "93.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "SUBHLATA",
+    "fatherName": "SANJAY KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "89.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "6",
+    "candidateName": "NEERU",
+    "fatherName": "SAJJAN KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "97.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "MANISHA YADAV",
+    "fatherName": "PHOOL CHAND",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "89.82",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "KAJAL",
+    "fatherName": "SAJJAN SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "86.36",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "YACHANA",
+    "fatherName": "VIJAY SHARMA",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "91.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "SONIYA KUMARI",
+    "fatherName": "AJIT SINGH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Semester",
+    "percentage": "83.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "KAVITA",
+    "fatherName": "YUDHISTHER",
+    "courseName": "B.Sc ( NON-MEDI)",
+    "semester": "Fifth Semester",
+    "percentage": "86.44",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "ANNU YADAV",
+    "fatherName": "PRAVEEN KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "92.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "NISHA TANWAR",
+    "fatherName": "JAI BHAGWAN SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fourth Semester",
+    "percentage": "87.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "7",
+    "candidateName": "EKTA",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "97.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "PRIYANKA KUMARI",
+    "fatherName": "LAL SINGH",
+    "courseName": "B A",
+    "semester": "First Semester",
+    "percentage": "85.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "NEHA YADAV",
+    "fatherName": "DEVENDER SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "First Semester",
+    "percentage": "86.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "KAJAL",
+    "fatherName": "SAJJAN SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "89.09",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "SUSHMA",
+    "fatherName": "KRISHAN KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Second Semester",
+    "percentage": "83.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "NARESH YADAV",
+    "fatherName": "RAMKISHAN",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "90.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "NISHITA",
+    "fatherName": "MAHENDER KUMAR",
+    "courseName": "B.Sc ( NON-MEDI)",
+    "semester": "Fifth Semester",
+    "percentage": "89.78",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "KANCHAN",
+    "fatherName": "RAMNIWAS",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Semester",
+    "percentage": "89.33",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "KIRAN",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "91.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "JAYA SHARMA",
+    "fatherName": "MUKESH KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fourth Semester",
+    "percentage": "87.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "SHIVANI",
+    "fatherName": "SANJAY KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "89.20",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "MANSI",
+    "fatherName": "BHARPUR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Sixth Semester",
+    "percentage": "78.22",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "KANCHAN",
+    "fatherName": "RAMNIWAS",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Sixth Semester",
+    "percentage": "85.11",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "8",
+    "candidateName": "MONI",
+    "fatherName": "SUNIL KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "96.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "ANJALI",
+    "fatherName": "BALKESH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "88.55",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "PRIYANKA",
+    "fatherName": "SUNIL KUMAR",
+    "courseName": "B A",
+    "semester": "Second Semester",
+    "percentage": "80.50",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "NARESH YADAV",
+    "fatherName": "RAMKISHAN",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "85.82",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "NEHA YADAV",
+    "fatherName": "DEVENDER SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Third Semester",
+    "percentage": "87.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "VISHA",
+    "fatherName": "VINOD KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Semester",
+    "percentage": "86.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "KAJAL",
+    "fatherName": "SAJJAN SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "89.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "PRIYA",
+    "fatherName": "RAJESH KUMAR",
+    "courseName": "B.Com",
+    "semester": "Fifth Semester",
+    "percentage": "79.33",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "NISHA TANWAR",
+    "fatherName": "JAI BHAGWAN SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fifth Semester",
+    "percentage": "88.22",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "SARGAM",
+    "fatherName": "NARESH KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Semester",
+    "percentage": "89.33",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "SHIVANI",
+    "fatherName": "SANJAY KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "88.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "ANITA",
+    "fatherName": "ISHWAR SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "88.80",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "9",
+    "candidateName": "NEHA",
+    "fatherName": "OM PRAKASH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Sixth Semester",
+    "percentage": "96.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "RINKI",
+    "fatherName": "JAICHAND",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Semester",
+    "percentage": "79.83",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "MAMTA",
+    "fatherName": "BIRBAL",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Semester",
+    "percentage": "87.82",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "PRIYANKA",
+    "fatherName": "ASHOK KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Second Semester",
+    "percentage": "83.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "VISHA",
+    "fatherName": "VINOD KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Second Semester",
+    "percentage": "76.22",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "YOGITA",
+    "fatherName": "CHANDERPAL",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Second Semester",
+    "percentage": "84.73",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "PRIYANKA KUMARI",
+    "fatherName": "LAL SINGH",
+    "courseName": "B A",
+    "semester": "Third Semester",
+    "percentage": "83.25",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "RIYA",
+    "fatherName": "RAM KISHAN",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Semester",
+    "percentage": "86.00",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "MANISHA YADAV",
+    "fatherName": "PHOOL CHAND",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Semester",
+    "percentage": "89.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "ANJALI",
+    "fatherName": "RAJENDER SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fifth Semester",
+    "percentage": "87.56",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "SHIWANI",
+    "fatherName": "RAJENDER",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Semester",
+    "percentage": "89.33",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "ANJALI",
+    "fatherName": "RANJEET SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Semester",
+    "percentage": "87.40",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "MAMTA",
+    "fatherName": "SATYAVIR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fourth Semester",
+    "percentage": "87.60",
+    "session": "2021-2022"
+  },
+  {
+    "universityMeritNo": "10",
+    "candidateName": "NISHA",
+    "fatherName": "SANKET YADAV",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Sixth Semester",
+    "percentage": "84.44",
+    "session": "2021-2022"
+  }
+]

@@ -1,0 +1,143 @@
+<section th:fragment="notice" xmlns:th="http://www.thymeleaf.org"
+         class="w-full flex justify-center py-14 px-4 bg-gradient-to-r from-[#0f172a] to-[#020617]">
+
+    <!-- MAIN BOX -->
+    <div class="w-full max-w-4xl bg-[#0f172a] rounded-xl shadow-xl border border-yellow-400 p-6">
+
+        <!-- Heading -->
+        <div class="text-center mb-6">
+            <p class="text-yellow-400 text-xs uppercase tracking-widest">
+                Latest Updates
+            </p>
+
+            <h2 class="text-3xl font-bold text-white mt-1">
+                News & Notices
+            </h2>
+        </div>
+
+        <!-- Notices List -->
+        <div class="space-y-5">
+
+            <div th:each="notice : ${notices}"
+                 class="bg-[#172554] border border-yellow-400 rounded-2xl
+                        p-6 flex justify-between items-center
+                        hover:scale-[1.01] transition duration-300">
+                <!-- LEFT -->
+                <div class="pr-4">
+                    <h3 class="text-xl font-bold text-white break-words"
+                        th:text="${notice.title}">
+                    </h3>
+                    <p class="text-sm text-gray-300 mt-2">
+                        📅 Latest Update
+                    </p>
+                </div>
+                <!-- RIGHT -->
+                <button
+                        th:attr="data-title=${notice.title},
+                                 data-description=${notice.description}"
+                        onclick="openNotice(this)"
+                        class="text-yellow-400 font-bold whitespace-nowrap">
+                    VIEW →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 🔥 FULLSCREEN POPUP -->
+    <div id="noticeModal"
+         class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm
+                z-[99999] items-center justify-center p-4">
+
+        <!-- POPUP BOX -->
+        <div class="bg-[#0f172a] text-white w-full max-w-2xl
+                    rounded-2xl border border-yellow-400 shadow-2xl">
+
+            <!-- HEADER -->
+            <div class="flex justify-between items-start p-6 border-b border-gray-700">
+
+                <div>
+
+                    <p class="text-yellow-400 text-xs uppercase">
+                        Notice Details
+                    </p>
+
+                    <h2 id="noticeTitle"
+                        class="text-2xl font-bold mt-1 break-words">
+                    </h2>
+
+                </div>
+
+                <button onclick="closeNotice()"
+                        class="text-white text-2xl hover:text-red-400 transition">
+
+                    ✖
+
+                </button>
+
+            </div>
+
+            <!-- CONTENT -->
+            <div class="p-6 max-h-[70vh] overflow-y-auto">
+
+                <p id="noticeDesc"
+                   class="text-gray-200 text-base leading-8 break-words whitespace-pre-line">
+                </p>
+
+            </div>
+
+            <!-- FOOTER -->
+            <div class="p-6 border-t border-gray-700 text-right">
+
+                <button onclick="closeNotice()"
+                        class="border border-yellow-400 text-yellow-400
+                               px-5 py-2 rounded-lg
+                               hover:bg-yellow-400 hover:text-black
+                               transition">
+
+                    CLOSE
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 🔥 SCRIPT -->
+    <script>
+
+        function openNotice(button){
+
+            let title = button.getAttribute("data-title");
+            let description = button.getAttribute("data-description");
+
+            document.getElementById("noticeTitle").innerText = title;
+
+            document.getElementById("noticeDesc").innerText = description;
+
+            document.getElementById("noticeModal")
+                    .classList.remove("hidden");
+
+            document.getElementById("noticeModal")
+                    .classList.add("flex");
+        }
+        function closeNotice(){
+            document.getElementById("noticeModal")
+                    .classList.remove("flex");
+            document.getElementById("noticeModal")
+                    .classList.add("hidden");
+        }
+        // ESC close
+        document.addEventListener("keydown", function(e){
+            if(e.key === "Escape"){
+                closeNotice();
+            }
+        });
+    </script>
+</section>

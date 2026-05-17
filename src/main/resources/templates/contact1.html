@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/output.css">
+</head>
+<body class="bg-[#020617] text-white min-h-screen">
+<!-- NAVBAR -->
+<div th:replace="navbar :: navbar"></div>
+<section class="max-w-7xl mx-auto px-4 py-16">
+    <!-- HEADING -->
+    <div class="text-center mb-14">
+        <h1 class="text-5xl font-bold text-yellow-400 mb-4">
+            📞 Contact Us
+        </h1>
+        <p class="text-gray-300 text-lg">
+            We're here to help you with admissions and college queries.
+        </p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-10">
+        <!-- LEFT SIDE -->
+        <div class="bg-[#0f172a] p-8 rounded-3xl border border-white/10">
+            <h2 class="text-3xl font-bold text-yellow-400 mb-8">
+                College Information
+            </h2>
+            <div class="space-y-6 text-gray-300 text-lg">
+                <div>
+                    <h3 class="text-white font-semibold mb-1">
+                        📍 Address
+                    </h3>
+                    <p> Yaduvanshi Degree College, Mahendergarh, Haryana
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-1">
+                        📞 Phone
+                    </h3>
+
+                    <p>
+                        +91 8607062323
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">
+                        ✉️ Email
+                    </h3>
+
+                    <p>
+                        info@yaduvanshigroup.edu.in
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-1">
+                        🌐 Website
+                    </h3>
+
+                    <p>
+                        www.yaduvanshigroup.edu.in
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="bg-[#0f172a] p-8 rounded-3xl border border-white/10">
+
+            <h2 class="text-3xl font-bold text-yellow-400 mb-8">
+                Send Message
+            </h2>
+
+            <form action="/send-message" method="post" class="space-y-5">
+                <!-- NAME -->
+                <input type="text" name="name" placeholder="Your Name" required class="w-full bg-[#111827]
+                              border border-white/10 rounded-xl px-5 py-4 outline-none focus:border-yellow-400">
+
+                <!-- EMAIL -->
+                <input type="email" name="email" placeholder="Your Email" required
+                       class="w-full bg-[#111827] border border-white/10 rounded-xlpx-5 py-4 outline-none
+ focus:border-yellow-400">
+                <!-- PHONE -->
+
+                <input type="text"
+                       name="phone"
+                       placeholder="Phone Number"
+                       required
+                       class="w-full bg-[#111827] border border-white/10 rounded-xl px-5 py-4 outline-none focus:border-yellow-400">
+
+                <!-- MESSAGE -->
+                <textarea rows="5" name="message" placeholder="Your Message" required
+                          class="w-full bg-[#111827] border border-white/10 rounded-xl px-5 py-4 outline-none focus:border-yellow-400"></textarea>
+                <!-- BUTTON -->
+                <button type="submit" class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-8 py-4 rounded-xl transition duration-300">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>

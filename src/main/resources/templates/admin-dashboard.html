@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f172a] text-white min-h-screen p-10">
+<h1 class="text-4xl font-bold text-yellow-400 mb-10">
+    Admin Dashboard
+</h1>
+<a href="/admin/logout"
+   class="bg-red-500 px-4 py-2 rounded-xl text-white font-bold">
+    Logout
+</a>
+<div class="grid md:grid-cols-3 gap-8">
+    <div class="bg-[#111827] p-8 rounded-2xl">
+        <h2 class="text-2xl font-bold mb-4">📢 Notices</h2>
+        <form action="/admin/add-notice"
+              method="post"
+              class="flex flex-col gap-4">
+            <input type="text" name="title" placeholder="Enter Notice" class="px-4 py-3 rounded-lg text-black">
+            <textarea name="description" placeholder="Enter Full Notice" class="w-full p-4 rounded-xl text-black mb-4"></textarea>
+            <button type="submit" class="bg-yellow-400 text-black px-5 py-2 rounded-lg font-bold">Add Notice</button>
+        </form>
+        <div class="mt-10 space-y-4">
+
+            <div th:each="notice : ${notices}"
+                 class="bg-[#172554] p-5 rounded-xl border border-yellow-400">
+
+                <h2 class="text-white text-xl font-bold"
+                    th:text="${notice.title}">
+                </h2>
+
+                <p class="text-gray-300 mt-2"
+                   th:text="${notice.description}">
+                </p>
+
+                <form th:action="@{/admin/delete-notice/{id}(id=${notice.id})}"
+                      method="post">
+
+                    <button class="bg-red-500 hover:bg-red-600
+                           text-white px-4 py-2
+                           rounded-lg mt-4">
+
+                        Delete Notice
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-[#111827] p-8 rounded-2xl">
+        <h2 class="text-2xl font-bold mb-4">🏆 Toppers</h2>
+        <button class="bg-yellow-400 text-black px-5 py-2 rounded-lg">
+            Add Topper
+        </button>
+    </div>
+
+    <div class="bg-[#111827] p-8 rounded-2xl">
+        <h2 class="text-2xl font-bold mb-4">📩 Messages</h2>
+        <a href="/admin/messages"
+           class="bg-yellow-400 text-black px-5 py-2 rounded-lg inline-block font-bold">
+
+            View Messages
+
+        </a>
+        <div class="space-y-4 mt-6">
+
+            <div th:each="msg : ${messages}"
+                 class="bg-[#172554] p-4 rounded-2xl border border-yellow-400">
+
+                <h3 class="text-yellow-400 font-bold text-lg"
+                    th:text="${msg.name}">
+                </h3>
+
+                <p class="text-sm text-gray-300"
+                   th:text="${msg.email}">
+                </p>
+
+                <p class="text-sm text-gray-300"
+                   th:text="${msg.phone}">
+                </p>
+
+                <p class="mt-3 text-white"
+                   th:text="${msg.message}">
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="bg-[#111827] p-8 rounded-2xl">
+
+        <h2 class="text-2xl font-bold mb-4">
+            🖼 Gallery
+        </h2>
+
+        <a href="/admin/gallery"
+           class="bg-yellow-400 text-black px-5 py-2 rounded-lg inline-block font-bold">
+
+            Manage Gallery
+
+        </a>
+
+    </div>
+</div>
+<!-- ACHIEVEMENTS -->
+<div class="bg-[#111827] p-8 rounded-2xl">
+
+    <h2 class="text-2xl font-bold mb-6">
+        🏆 Achievements
+    </h2>
+
+    <form action="/admin/add-achievement"
+          method="post"
+          enctype="multipart/form-data"
+          class="flex flex-col gap-4">
+
+        <!-- TITLE -->
+        <input type="text"
+               name="title"
+               placeholder="Achievement Title"
+               class="px-4 py-3 rounded-lg text-black">
+
+        <!-- DESCRIPTION -->
+        <textarea name="description"
+                  placeholder="Achievement Description"
+                  class="w-full p-4 rounded-xl text-black h-40"></textarea>
+
+        <!-- IMAGE -->
+        <input type="file"
+               name="imageFile"
+               class="bg-white p-2 rounded-lg text-black">
+
+        <!-- BUTTON -->
+        <button type="submit"
+                class="bg-yellow-400 text-black
+                       px-5 py-3 rounded-lg font-bold">
+
+            Add Achievement
+
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

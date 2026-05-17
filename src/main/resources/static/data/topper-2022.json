@@ -1,0 +1,623 @@
+[
+  {
+    "universityMeritNo": "1",
+    "regNo": "202251113019",
+    "candidateName": "RINKI",
+    "fatherName": "JAICHAND",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "202251114021",
+    "candidateName": "KAJAL",
+    "fatherName": "SAJJAN SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "212251102010",
+    "candidateName": "VARSHA RANI",
+    "fatherName": "MOOL CHAND",
+    "courseName": "B.Com",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "212251113007",
+    "candidateName": "EKTA",
+    "fatherName": "TEJPAL",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "212251111006",
+    "candidateName": "SHIVANI",
+    "fatherName": "NIRANJAN SINGH",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "212251114003",
+    "candidateName": "POOJA KUMARI",
+    "fatherName": "SURESH KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "191181103199",
+    "candidateName": "MUSKAN",
+    "fatherName": "RAM KUMAR",
+    "courseName": "M.Sc(CHEMISTRY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "181361104032",
+    "candidateName": "SAPNA YADAV",
+    "fatherName": "SUNIL KUMAR",
+    "courseName": "M.Sc(BOTANY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "172251101003",
+    "candidateName": "DEEPIKA",
+    "fatherName": "UMESH SHARMA",
+    "courseName": "M.A.(POLITICAL SCIENCE)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "222251114009",
+    "candidateName": "PRIYA",
+    "fatherName": "SATYPAL SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "1",
+    "regNo": "181051104017",
+    "candidateName": "PAYAL",
+    "fatherName": "SOMBIR",
+    "courseName": "M.A.(ENGLISH)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "202251113015",
+    "candidateName": "PREETI",
+    "fatherName": "LILA RAM",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "202251114023",
+    "candidateName": "SAPNA",
+    "fatherName": "RAJESHWAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "212251113005",
+    "candidateName": "DEEPIKA",
+    "fatherName": "MUKESH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "212251111002",
+    "candidateName": "BHARTI YADAV",
+    "fatherName": "SHIV KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "222251114012",
+    "candidateName": "PRIYA",
+    "fatherName": "MUKESH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "222251111003",
+    "candidateName": "ANNU",
+    "fatherName": "SARJEET",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "2",
+    "regNo": "191361101016",
+    "candidateName": "DEEPIKA",
+    "fatherName": "BRAHM PRAKASH",
+    "courseName": "M.Sc(GEOGRAPHY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "202251112012",
+    "candidateName": "VARSHA",
+    "fatherName": "MANOJ",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "202251113010",
+    "candidateName": "POOJA",
+    "fatherName": "SANJAY",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "212251113018",
+    "candidateName": "PRIYA",
+    "fatherName": "VIKRAM",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "212251111005",
+    "candidateName": "POONAM YADAV",
+    "fatherName": "RAVINDER KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "212251114010",
+    "candidateName": "SUPRIYA",
+    "fatherName": "LAL CHAND",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "191491101025",
+    "candidateName": "PRIYA",
+    "fatherName": "RAMKISHAN",
+    "courseName": "M.A.(POLITICAL SCIENCE)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "3",
+    "regNo": "222251114004",
+    "candidateName": "ANKITA",
+    "fatherName": "VEER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "202251104009",
+    "candidateName": "SUSHMA",
+    "fatherName": "KRISHAN KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "202251113017",
+    "candidateName": "MONIKA",
+    "fatherName": "MAHESH KUMAR",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "212251102018",
+    "candidateName": "PARTIMA",
+    "fatherName": "AJAY KUMAR",
+    "courseName": "B.Com",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "212251113006",
+    "candidateName": "SANEH",
+    "fatherName": "SANJAY SINGH",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "212251114013",
+    "candidateName": "NAVEEN",
+    "fatherName": "RAMNIWAS",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "222251114017",
+    "candidateName": "TAMANNA YADAV",
+    "fatherName": "BIJENDER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "222251113005",
+    "candidateName": "KASHISH",
+    "fatherName": "MUKESH JAIN",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "4",
+    "regNo": "191141101360",
+    "candidateName": "RAJNI",
+    "fatherName": "MAMCHAND",
+    "courseName": "M.Sc(GEOGRAPHY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "202251103018",
+    "candidateName": "RITU",
+    "fatherName": "RAJENDER SINGH",
+    "courseName": "B.Sc ( NON-MEDI)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "202251104005",
+    "candidateName": "NEHA YADAV",
+    "fatherName": "DEVENDER SINGH",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "202251111001",
+    "candidateName": "PAYAL SHARMA",
+    "fatherName": "PRAVEEN KUMAR SHARMA",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "202251114009",
+    "candidateName": "ANMOL",
+    "fatherName": "SHER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "212251102002",
+    "candidateName": "PRIYANKA",
+    "fatherName": "VINOD KUMAR",
+    "courseName": "B.Com",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "222251112005",
+    "candidateName": "YOGITA",
+    "fatherName": "KARAN SINGH",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "5",
+    "regNo": "222250901001",
+    "candidateName": "JYOTI",
+    "fatherName": "AJIT SINGH",
+    "courseName": "M.Sc(GEOGRAPHY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "202251113008",
+    "candidateName": "POOJA",
+    "fatherName": "MOTI RAM",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "202251114011",
+    "candidateName": "MANISHA YADAV",
+    "fatherName": "PHOOL CHAND",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "212251102004",
+    "candidateName": "RISHABH SHARMA",
+    "fatherName": "KAMAL KUMAR",
+    "courseName": "B.Com",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "212251113004",
+    "candidateName": "RITIKA",
+    "fatherName": "RAVINDER",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "222251114011",
+    "candidateName": "ANJALI",
+    "fatherName": "SURENDER SINGH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "222251111002",
+    "candidateName": "MANSI BALWAN",
+    "fatherName": "PRAVEEN BALWAN",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "6",
+    "regNo": "222251113004",
+    "candidateName": "ARTI KUMARI",
+    "fatherName": "SHREE BHAGWAN",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "202251112014",
+    "candidateName": "PINKI SONI",
+    "fatherName": "DEVI LAL SONI",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "202251114010",
+    "candidateName": "KIRTI",
+    "fatherName": "JITENDER KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "212251113016",
+    "candidateName": "MANSHI",
+    "fatherName": "RAJESH KUMAR",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "222251114006",
+    "candidateName": "PRIYANKA",
+    "fatherName": "RAJ KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "222251111008",
+    "candidateName": "ALKA DHILLON",
+    "fatherName": "RAVIKIRAN SINGH",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "222251112003",
+    "candidateName": "NIKITA",
+    "fatherName": "VIKRAM SINGH",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "222251102008",
+    "candidateName": "PRIYA",
+    "fatherName": "BABULAL",
+    "courseName": "B.Com",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "7",
+    "regNo": "222251101002",
+    "candidateName": "ANISHA",
+    "fatherName": "RAJESH SHARMA",
+    "courseName": "BACHELOR OF ARTS",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "8",
+    "regNo": "202251112013",
+    "candidateName": "PRIYANKA",
+    "fatherName": "DINESH KUMAR",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "8",
+    "regNo": "202251111004",
+    "candidateName": "RITU",
+    "fatherName": "RAJBIR SINGH",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "8",
+    "regNo": "202251114018",
+    "candidateName": "GARIMA",
+    "fatherName": "SATISH KUMAR",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "8",
+    "regNo": "212251102016",
+    "candidateName": "NEHA",
+    "fatherName": "DHARMENDER",
+    "courseName": "B.Com",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "8",
+    "regNo": "212251112004",
+    "candidateName": "KOMAL",
+    "fatherName": "PAWAN KUMAR",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Third Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "9",
+    "regNo": "202251104004",
+    "candidateName": "NISHU",
+    "fatherName": "VIJAY KUMAR",
+    "courseName": "B.Sc (MEDI)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "9",
+    "regNo": "202251114015",
+    "candidateName": "ANJALI",
+    "fatherName": "BALKESH",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "9",
+    "regNo": "222251113003",
+    "candidateName": "AMITA SANGWAN",
+    "fatherName": "AJAY KUMAR",
+    "courseName": "B.Sc HONS. (MATH)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "9",
+    "regNo": "222250901004",
+    "candidateName": "PRIYA",
+    "fatherName": "RAJ SINGH",
+    "courseName": "M.Sc(GEOGRAPHY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "10",
+    "regNo": "202251112009",
+    "candidateName": "SONI",
+    "fatherName": "ARVIND KUMAR",
+    "courseName": "B.Sc HONS. (CHEMISTRY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "10",
+    "regNo": "202251111007",
+    "candidateName": "VISHA",
+    "fatherName": "VINOD KUMAR",
+    "courseName": "B.Sc HONS. (PHYSICS)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "10",
+    "regNo": "202251114014",
+    "candidateName": "YACHANA",
+    "fatherName": "VIJAY SHARMA",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "Fifth Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "10",
+    "regNo": "222251114013",
+    "candidateName": "DEEPIKA",
+    "fatherName": "SANJEEV",
+    "courseName": "B.Sc HONS. (ZOOLOGY)",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  },
+  {
+    "universityMeritNo": "10",
+    "regNo": "222251102010",
+    "candidateName": "TAMANNA",
+    "fatherName": "PURUSHOTAM DASS",
+    "courseName": "B.Com",
+    "semester": "First Sem",
+    "session": "2022-2023"
+  }
+]

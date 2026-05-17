@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Messages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0f172a] text-white p-10">
+
+<h1 class="text-4xl font-bold text-yellow-400 mb-10">
+    📩 Contact Messages
+</h1>
+
+<div class="space-y-6">
+
+    <div th:each="msg : ${messages}"
+         class="bg-[#111827] p-6 rounded-2xl border border-white/10">
+
+        <h2 class="text-2xl font-bold"
+            th:text="${msg.name}">
+        </h2>
+
+        <p class="text-gray-300 mt-2"
+           th:text="${msg.email}">
+        </p>
+
+        <p class="text-gray-300"
+           th:text="${msg.phone}">
+        </p>
+
+        <p class="mt-4 text-white"
+           th:text="${msg.message}">
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

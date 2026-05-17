@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2021-2022 Toppers</title>
+
+    <link rel="stylesheet" href="/css/output.css">
+</head>
+
+<body class="bg-[#020617] text-white min-h-screen">
+
+<!-- NAVBAR -->
+<div th:replace="navbar :: navbar"></div>
+
+<section class="max-w-7xl mx-auto px-4 py-10">
+
+    <!-- HEADING -->
+    <h1 class="text-4xl font-bold text-center text-yellow-400 mb-10">
+
+        🏆 2021-2022 University Toppers
+
+    </h1>
+
+    <!-- FILTERS -->
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+
+        <!-- SEARCH -->
+
+        <input
+                type="text"
+                id="searchInput"
+                placeholder="Search student name..."
+                class="bg-[#111827] border border-yellow-400 rounded-xl px-4 py-3 text-white w-full"
+        />
+
+        <!-- COURSE FILTER -->
+
+        <select
+                id="courseFilter"
+                class="bg-[#111827] border border-yellow-400 rounded-xl px-4 py-3 text-white w-full"
+        >
+
+            <option value="all">All Courses</option>
+
+            <option value="B.Sc HONS. (PHYSICS)">B.Sc Physics</option>
+
+            <option value="B.Sc HONS. (CHEMISTRY)">B.Sc Chemistry</option>
+
+            <option value="B.Sc HONS. (MATH)">B.Sc Math</option>
+
+            <option value="B.Sc HONS. (ZOOLOGY)">B.Sc Zoology</option>
+
+            <option value="B.Com">B.Com</option>
+
+            <option value="B A">B.A</option>
+
+        </select>
+
+        <!-- SEMESTER FILTER -->
+
+        <select
+                id="semesterFilter"
+                class="bg-[#111827] border border-yellow-400 rounded-xl px-4 py-3 text-white w-full"
+        >
+
+            <option value="all">All Semesters</option>
+
+            <option value="First Semester">First Semester</option>
+
+            <option value="Second Semester">Second Semester</option>
+
+            <option value="Third Semester">Third Semester</option>
+
+            <option value="Fourth Semester">Fourth Semester</option>
+
+            <option value="Fifth Semester">Fifth Semester</option>
+
+            <option value="Sixth Semester">Sixth Semester</option>
+
+        </select>
+
+    </div>
+    <!-- TABLE -->
+            <table class="w-full text-sm text-left text-gray-300">
+
+            <thead class="bg-yellow-400 text-black">
+
+            <tr>
+
+                <th class="px-4 py-3">Merit No</th>
+
+                <th class="px-4 py-3">Candidate Name</th>
+
+                <th class="px-4 py-3">Father Name</th>
+
+                <th class="px-4 py-3">Course</th>
+
+                <th class="px-4 py-3">Semester</th>
+
+                <th class="px-4 py-3">Percentage</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="topperTable"
+                   class="bg-[#0f172a] divide-y divide-white/10">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<script>
+
+    let toppers = [];
+
+    fetch('/data/topper-2021.json')
+    .then(response => response.json())
+    .then(data => {
+
+        toppers = data;
+
+        renderTable(toppers);
+
+    });
+
+    function renderTable(data) {
+
+        const table =
+            document.getElementById("topperTable");
+
+        table.innerHTML = "";
+
+        data.forEach(student => {
+
+            table.innerHTML += `
+
+            <tr class="hover:bg-white/5">
+
+                <td class="px-4 py-3 text-yellow-400 font-bold">
+                    ${student.universityMeritNo}
+                </td>
+
+                <td class="px-4 py-3">
+                    ${student.candidateName}
+                </td>
+
+                <td class="px-4 py-3">
+                    ${student.fatherName}
+                </td>
+
+                <td class="px-4 py-3">
+                    ${student.courseName}
+                </td>
+
+                <td class="px-4 py-3">
+                    ${student.semester}
+                </td>
+
+                <td class="px-4 py-3 text-green-400 font-bold">
+                    ${student.percentage}
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+    }
+
+    function filterTable() {
+
+        const search =
+            document.getElementById("searchInput")
+            .value
+            .toLowerCase();
+
+        const selectedCourse =
+            document.getElementById("courseFilter").value;
+
+        const selectedSemester =
+            document.getElementById("semesterFilter").value;
+
+        const filtered = toppers.filter(student => {
+
+            const matchesSearch =
+                student.candidateName
+                .toLowerCase()
+                .includes(search);
+
+            const matchesCourse =
+                selectedCourse === "all" ||
+                student.courseName === selectedCourse;
+
+            const matchesSemester =
+                selectedSemester === "all" ||
+                student.semester === selectedSemester;
+
+            return matchesSearch &&
+                   matchesCourse &&
+                   matchesSemester;
+
+        });
+
+        renderTable(filtered);
+
+    }
+
+    document
+    .getElementById("searchInput")
+    .addEventListener("keyup", filterTable);
+
+    document
+    .getElementById("courseFilter")
+    .addEventListener("change", filterTable);
+
+    document
+    .getElementById("semesterFilter")
+    .addEventListener("change", filterTable);
+
+</script>
+
+</body>
+</html>

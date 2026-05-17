@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topper Data Converter</title>
+</head>
+
+<body style="background:#0f172a;color:white;padding:20px;font-family:Arial">
+
+<h1>2022 Topper Data Converter</h1>
+
+<textarea
+        id="input"
+        style="width:100%;height:300px;padding:10px;"
+        placeholder="Paste Excel/Table data here..."></textarea>
+
+<br><br>
+
+<input
+        type="text"
+        id="session"
+        value="2022-2023"
+        style="padding:10px;width:200px;">
+
+<button
+        onclick="convertData()"
+        style="padding:10px 20px;cursor:pointer;">
+
+    Convert
+
+</button>
+
+<br><br>
+
+<textarea
+        id="output"
+        style="width:100%;height:350px;padding:10px;"
+        placeholder="JSON Output..."></textarea>
+
+<script>
+
+    function convertData() {
+
+        const input = document.getElementById("input").value.trim();
+
+        const session = document.getElementById("session").value;
+
+        const lines = input.split("\n");
+
+        let result = [];
+
+        // Skip heading row
+        for(let i = 1; i < lines.length; i++) {
+
+            let cols = lines[i]
+                .trim()
+                .split("\t");
+
+            if(cols.length < 6) continue;
+
+            result.push({
+
+                universityMeritNo: cols[0].trim(),
+
+                regNo: cols[1].trim(),
+
+                candidateName: cols[2].trim(),
+
+                fatherName: cols[3].trim(),
+
+                courseName: cols[4].trim(),
+
+                semester: cols[5].trim(),
+
+                session: session
+
+            });
+
+        }
+
+        document.getElementById("output").value =
+            JSON.stringify(result, null, 2);
+
+    }
+
+</script>
+
+</body>
+</html>

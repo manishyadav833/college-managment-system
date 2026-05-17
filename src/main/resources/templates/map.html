@@ -1,0 +1,24 @@
+<section th:fragment="map" xmlns:th="http://www.thymeleaf.org"
+         class="py-20 bg-[#020617] text-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold text-yellow-400 mb-4">
+                📍 Our Location
+            </h2>
+            <p class="text-gray-300 text-lg">
+                Visit Yaduvanshi Degree College Campus
+            </p>
+        </div>
+        <!-- MAP -->
+        <div class="rounded-3xl overflow-hidden shadow-2xl border border-white/10">
+            <iframe src="https://www.google.com/maps?q=Yaduvanshi+Degree+College+Mahendergarh&output=embed"
+                    width="100%"
+                    height="500"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>

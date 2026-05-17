@@ -1,0 +1,143 @@
+<section th:fragment="achievement"
+         xmlns:th="http://www.thymeleaf.org"
+         class="py-20 px-6 bg-[#0f172a]">
+
+    <!-- HEADING -->
+    <div class="text-center mb-14">
+
+        <p class="text-yellow-400 uppercase tracking-[4px] text-sm">
+            Pride & Excellence
+        </p>
+
+        <h2 class="text-5xl font-bold text-white mt-3">
+            Our Achievements
+        </h2>
+
+    </div>
+
+    <!-- GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div th:each="achievement : ${achievements}"
+
+             class="bg-[#172554]
+                    rounded-2xl
+                    overflow-hidden
+                    border border-yellow-400
+                    shadow-xl">
+
+            <!-- IMAGE -->
+            <img th:src="@{/images/{img}(img=${achievement.image})}"
+                 class="w-full h-[320px] object-cover">
+
+            <!-- CONTENT -->
+            <div class="p-6">
+
+                <h3 class="text-2xl font-bold text-white"
+                    th:text="${achievement.title}">
+                </h3>
+
+                <p class="text-gray-300 mt-4 line-clamp-4"
+                   th:text="${achievement.description}">
+                </p>
+
+                <button
+
+                        th:attr="data-title=${achievement.title},
+                                 data-description=${achievement.description},
+                                 data-image=${achievement.image}"
+
+                        onclick="openAchievement(this)"
+
+                        class="mt-6 text-yellow-400 font-bold">
+
+                    VIEW DETAILS →
+
+                </button>
+                <form th:action="@{/admin/delete-achievement/{id}(id=${achievement.id})}"
+                      method="post">
+
+                    <button type="submit"
+                            class="mt-6 text-red-400 font-bold">
+
+                        DELETE
+
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- ACHIEVEMENT POPUP -->
+
+    <div id="achievementModal"
+         class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-[99999] items-center justify-center p-4">
+
+        <div class="bg-[#0f172a] border border-yellow-400 rounded-2xl
+                max-w-3xl w-full overflow-hidden shadow-2xl">
+
+            <!-- IMAGE -->
+            <img id="popupImage"
+                 src=""
+                 class="w-full h-[400px] object-cover">
+
+            <!-- CONTENT -->
+            <div class="p-6">
+
+                <div class="flex justify-between items-start">
+
+                    <h2 id="popupTitle"
+                        class="text-3xl font-bold text-white">
+                    </h2>
+
+                    <button onclick="closeAchievement()"
+                            class="text-white text-3xl hover:text-red-400">
+                        ✖
+                    </button>
+
+                </div>
+
+                <p id="popupDescription"
+                   class="text-gray-300 mt-4 leading-8 text-lg">
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+
+        function openAchievement(button){
+
+            let title = button.getAttribute("data-title");
+            let description = button.getAttribute("data-description");
+            let image = button.getAttribute("data-image");
+
+            document.getElementById("popupTitle").innerText = title;
+
+            document.getElementById("popupDescription").innerText = description;
+
+            document.getElementById("popupImage").src =
+                "/uploads/" + image;
+
+            document.getElementById("achievementModal")
+                    .classList.remove("hidden");
+
+            document.getElementById("achievementModal")
+                    .classList.add("flex");
+        }
+
+        function closeAchievement(){
+
+            document.getElementById("achievementModal")
+                    .classList.remove("flex");
+
+            document.getElementById("achievementModal")
+                    .classList.add("hidden");
+        }
+
+    </script>
+</section>

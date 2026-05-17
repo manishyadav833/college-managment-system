@@ -1,0 +1,39 @@
+<section th:fragment="admissionBanner" xmlns:th="http://www.thymeleaf.org"
+         class="py-20 bg-[#020617] text-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <!-- IMAGE -->
+        <div class="rounded-3xl overflow-hidden shadow-2xl mb-10">
+            <img src="/images/img.png" alt="Students" class="w-full h-[250px] md:h-[450px] object-cover">
+        </div>
+        <!-- TEXT -->
+        <div class="text-center">
+            <h1 class="text-5xl font-bold text-yellow-400 mb-6">
+                Admissions Open 2025-26 |
+                B.A / B.Com / B.Sc / BCA
+            </h1>
+            <p class="text-lg text-gray-300 leading-8 max-w-4xl mx-auto mb-10">
+            Yaduvanshi Degree College, Mahendergarh invites
+                students for admission in UG courses for Session
+                2025-26. Modern campus, experienced faculty,
+                digital classrooms and career-focused learning.
+            </p>
+            <!-- BUTTONS -->
+            <div class="flex flex-wrap justify-center gap-5">
+                <a href="https://yaduvanshigroup.edu.in/admission-Form"
+                   target="_blank"
+                   class="bg-yellow-400 hover:bg-yellow-300
+                          text-black font-semibold
+                          px-8 py-4 rounded-xl transition">
+                    Apply Now →
+                </a>
+                <a href="/fee-structure"
+                   class="border border-gray-400
+                          hover:bg-black hover:text-white
+                          text-white font-semibold
+                          px-8 py-4 rounded-xl transition">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

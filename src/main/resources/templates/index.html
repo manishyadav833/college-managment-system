@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" class="dark">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css  ">
+    <link rel="icon" type="image/png" href="/images/logo.png">
+</head><body class="bg-white text-black dark:bg-[#0f172a] dark:text-white m-0 p-0">
+
+<div class="w-full">
+
+    <!-- Navbar -->
+    <div th:replace="~{navbar :: navbar}"></div>
+    <div th:replace="~{slider :: slider}"></div>
+    <div th:replace="~{hero :: hero}"></div>
+    <div th:replace="~{chairman :: chairman}"></div>
+    <audio id="welcomeAudio" src="/audio/welcome.mp3"></audio>
+    <div th:replace="~{notice :: notice}"></div>
+    <!-- Courses -->
+    <div th:replace="achievement :: achievement"></div>
+    <div th:replace="~{facility :: facility}"></div>
+    <div th:replace="~{courses :: courses}"></div>
+    <section class="py-16 bg-[#0f172a] text-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold mb-10 text-center text-yellow-400">
+                College Gallery
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div th:each="img : ${galleryList}"
+                     class="bg-[#111827] rounded-2xl overflow-hidden shadow-lg">
+
+                    <img th:src="@{'/uploads/' + ${img.imageName}}"
+                         class="w-full h-64 object-cover">
+
+                    <div class="p-4">
+
+                        <h3 class="text-xl font-bold"
+                            th:text="${img.title}">
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <div th:replace="~{hostel :: hostel}"></div>
+    <div th:replace="~{admission-banner :: admissionBanner}"></div>
+    <div th:replace="~{stats :: stats}"></div>
+    <!-- Contact -->
+    <div th:replace="~{contact :: contact}"></div>
+    <div th:replace="~{map :: map}"></div>
+<!--    <div th:replace="footer :: footer"></div>-->
+</div>
+<div th:replace="whatsapp :: whatsapp"></div>
+<script src="/js/main.js"></script>
+</body>
+</html>
